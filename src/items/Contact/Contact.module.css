@@ -1,0 +1,61 @@
+.contact{
+    padding: 50px ;
+}
+    .hh:before, .hh:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 4px solid  #2c3e50;
+        margin: auto;
+        
+    }
+
+    .hh {
+        display: flex;
+        flex-direction: row;
+        width: 17%;
+        margin: auto;
+        color: #2c3e50;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .contact h1{
+        color: #2c3e50;
+    }
+  
+    input,textarea {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid #ced4da;
+      } 
+      input:focus,textarea:focus{
+        border-bottom: 1px solid #1abc9c;
+      }
+      form{
+        width: 50%;
+        margin: auto;
+      }
+      input,textarea{
+        width: 100%;
+      }
+      label{
+        color: #6c757d;
+        font-size: 1.5rem;
+      }
+      .contbtn{
+        background-color: #1abc9c;
+        color: white;
+        border: none;
+        border-radius: .5rem;
+        padding: 1rem 1.75rem;
+        font-size: 1.25rem;
+        opacity: 0.65;
+        cursor: pointer;
+
+      }
+      @media only screen and (max-width: 600px) {
+        form{
+          width: 100%;
+          margin: auto;
+        }
+      }  

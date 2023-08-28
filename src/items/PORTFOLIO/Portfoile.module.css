@@ -1,0 +1,23 @@
+.port h1{
+    color: #2c3e50;
+}
+.port{
+    padding: 50px;
+}
+.port h5:before, .port h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid  #2c3e50;
+    margin: auto;
+    
+}
+
+.port h5 {
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    margin: auto;
+    color: #2c3e50;
+    margin-top: 20px;
+    font-size: 30px;
+}

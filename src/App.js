@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import  { Component } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './items/Footer/Footer';
+import Header from './items/Header/Header';
+import Navbar from './items/Navbar/Navbar';
+import PORTFOLIO from './items/PORTFOLIO/PORTFOLIO';
+import NotFound from './items/NotFound/NotFound';
+import About from './items/About/About';
+import Contact from './items/Contact/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+state={};
+  render() {
+    return (
+      <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Header />}/>
+        <Route path="portf" element={<PORTFOLIO />}/>
+        <Route path="about" element={<About />}/>
+        <Route path="contact" element={<Contact />}/>
+        <Route path="*" element={<NotFound />}/>
+      </Routes>
+      
+      <Footer/>
+      </>
+    ) 
+    
+  }
 }
-
-export default App;
