@@ -6,12 +6,14 @@
    display: flex;
    justify-content: center;
    padding: 70px;
+   align-items: center;
 }
 .topfooter a{
     color: #1abc9c;
 }
 .location{
-margin-right: 100px;
+    padding-right: 40px;
+    text-align: center;
 }
 .location i{
     width: 50px;
@@ -19,9 +21,10 @@ margin-right: 100px;
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 20px;
     line-height: 50px;
+    
 }
 .location i:hover{
     background-color: white;

@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       
-      <footer >
+      <footer>
         <div className={`${style.topfooter} `}>
           <div className={`${style.location} `}>
           <h3 >LOCATION</h3>
@@ -16,10 +16,10 @@ export default class Footer extends Component {
 
           <div className={`${style.location} `}>
           <h3 >AROUND THE WEB</h3>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-solid fa-globe"></i>
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-linkedin-in"></i>
+          <i className="fa-solid fa-globe"></i>
           </div>
 
           <div className={`${style.location} `}>
